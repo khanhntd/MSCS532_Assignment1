@@ -1,5 +1,8 @@
 
-
+# insertionSort will following the two steps:
+# Step 1: Detach the rightest element
+# Step 2: Swap the each element from the current element's left side and swap it with the smallest element
+# (since we are doing decreasing order)
 def insertionSort(array: list[int]):
   for index in range(1, len(array)):
     key = array[index]
